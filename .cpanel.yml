@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/kurpaige/public_html/photos/
+  - /bin/cp -R . $DEPLOYPATH
+  # - /bin/cp style.css $DEPLOYPATH
